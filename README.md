@@ -1,4 +1,4 @@
-# Artist Authorship
+# Artist Authorship Attribution
 
 50-class artist attribution from painting images. DS2 Group #166 (Yiqiao Huang, Lixuan Wei, Ruyi Yang, Tian Xia).
 
