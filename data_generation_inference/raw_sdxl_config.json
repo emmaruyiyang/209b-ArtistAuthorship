@@ -1,0 +1,60 @@
+{
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "vae_model": "madebyollin/sdxl-vae-fp16-fix",
+  "controlnet_model": "diffusers/controlnet-canny-sdxl-1.0",
+  "artists": [
+    {
+      "slug": "van_gogh",
+      "display": "Vincent van Gogh",
+      "style_hint": "oil painting, swirling impasto brushstrokes, vivid color, post-impressionist",
+      "controlnet_scale": 0.45
+    },
+    {
+      "slug": "monet",
+      "display": "Claude Monet",
+      "style_hint": "oil painting, impressionist, broken color, soft brushwork, dappled light",
+      "controlnet_scale": 0.30
+    },
+    {
+      "slug": "picasso",
+      "display": "Pablo Picasso",
+      "style_hint": "painting, cubist, fragmented geometric forms",
+      "controlnet_scale": 0.30
+    },
+    {
+      "slug": "leonardo_da_vinci",
+      "display": "Leonardo da Vinci",
+      "style_hint": "oil painting, sfumato, chiaroscuro, atmospheric perspective, muted earth palette",
+      "controlnet_scale": 0.35
+    },
+    {
+      "slug": "rembrandt",
+      "display": "Rembrandt van Rijn",
+      "style_hint": "oil painting, dramatic chiaroscuro, warm tenebrism, golden lit subject against dark ground",
+      "controlnet_scale": 0.45
+    }
+  ],
+  "use_style_hint": true,
+  "content_prompts": [
+    "a rainy city street at night",
+    "a mountain village in winter",
+    "a woman reading by candlelight",
+    "a crowded marketplace at sunset",
+    "a seascape with dramatic clouds",
+    "a forest path in autumn",
+    "a still life with flowers and fruit",
+    "a medieval town square",
+    "a train station in morning fog",
+    "a river bridge under moonlight"
+  ],
+  "negative_prompt": "photo, photorealistic, 3d render, anime, cartoon, watermark, text, low quality, out of focus, motion blur, lens blur, Starry Night, Sunflowers, Mona Lisa, Guernica, Weeping Woman, The Night Watch, Water Lilies, signature, gallery label, frame",
+  "controlnet_content_prompt": "an outdoor landscape scene, original composition",
+  "steps": 20,
+  "guidance_scale": 6.5,
+  "resolution": 1024,
+  "controlnet_scale": 0.5,
+  "canny_low": 100,
+  "canny_high": 200,
+  "n_per_prompt": 4,
+  "n_per_image": 2
+}
