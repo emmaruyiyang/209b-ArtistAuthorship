@@ -1,3 +1,21 @@
+# Original dataset
 /data
 
+# Downloaded assets (populated by §1.4 of main notebook via Google Drive)
+/dataset/
+/generated_lora/
+/generated_lora_canny/
+/checkpoints/
+/lora_ckpts/
+/project/
+/fig/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# System
 .DS_Store
+Thumbs.db
