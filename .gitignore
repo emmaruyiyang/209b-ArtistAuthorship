@@ -8,13 +8,15 @@
 /checkpoints/
 /lora_ckpts/
 /project/
-/fig/
 
 # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
+
+# Claude Code
+.claude/
 
 # System
 .DS_Store
