@@ -27,7 +27,7 @@
 | `nb2_baseline.ipynb` | Baseline classification experiments (ResNet-18, ViT-B/16, CLIP, EfficientNet-B0) |
 | `nb3_lora_augmented.ipynb` | Full augmentation experiments: naive vs. corrected sampler sweep, Canny+ControlNet comparison |
 
-### Data generation (`data_generation_inference/`)
+<!-- ### Data generation (`data_generation_inference/`)
 
 | File | Description |
 |---|---|
@@ -40,7 +40,7 @@
 | `download_lora_ckpts.py` | Download per-artist LoRA checkpoints from Google Drive |
 | `download_landscape_photos.py` | Download reference landscape photos for ControlNet input |
 | `run_all_gpus_lora.sh` | Multi-GPU parallel generation (4 GPUs) |
-| `make_collages.py` | Generate preview collages for visual inspection |
+| `make_collages.py` | Generate preview collages for visual inspection | -->
 
 ### Pre-trained assets
 
